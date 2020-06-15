@@ -4,7 +4,8 @@
   "description": "这是一个UI框架",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,20 @@
   "bugs": {
     "url": "https://github.com/leefaith/gulu/issues"
   },
-  "homepage": "https://github.com/leefaith/gulu#readme"
+  "homepage": "https://github.com/leefaith/gulu#readme",
+  "dependencies": {
+    "vue": "^2.6.11",
+    "vue-hot-reload-api": "^2.3.4"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.1.2",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.8",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "alias": {
+    "vue" : "./node_modules/vue/dist/vue.common.js"
+  }
 }
